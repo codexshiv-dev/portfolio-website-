@@ -1,181 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlexShiv</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiv Portfolio</title>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/script.js"></script>
-  
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ScrollReveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
-
-
 <body>
-    <!-- header design -->
-    <header class="header">
-        <a href="#" class="logo">AlexShiv</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about" >About</a>
-            <a href="#services" >Services</a>
-            <a href="#portfolio" >Portfolio</a>
-            <a href="#contact" >Contact</a>
-        </nav>
-    </header>
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello,It's Me!</h3>
-            <h1>Shiv Gupta</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <!-- <p>Passionate web developer dedicated to crafting innovative digital experiences. Constantly expanding skills to stay ahead in the ever-evolving tech world. Let's create something amazing together!.</p> -->
-            <p>Enthusiastic web developer and digital marketer dedicated to crafting impactful online experiences. Passionate about leveraging technology to create compelling solutions. Let's collaborate and bring your digital vision to life with enthusiasm!</p>
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
 
-            </div>
-            <a href="#" class="btn">Download CV</a>
-        </div>
-        <div class="home-img">
-            <img src="images/Img1.webp" alt="">
-        </div>
-    </section>
-    <!-- about section design -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/Img1.webp" alt="">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Web Developer!</h3>
-            <p>Highly motivated and skilled computer engineering student with a passion for web development,
-                graphic design, and digital marketing. Seeking a challenging position where I can leverage my technical
-                expertise and creativity to contribute to the success of an innovative organization. Committed to
-                continuous learning and staying up-to-date with the latest industry trends to drive impactful results in a
-                fast-paced and dynamic environment..</p>
-            <a href="" class="btn">Read More</a>
-        </div>
-    </section>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-    <!-- service section design -->
-    <section class="service" id="service">
-        <h2 class="heading">Our <span>Services</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <p>Our web development services focus on creating visually appealing and highly functional websites. From simple static sites to complex web applications, we have the expertise to bring your online presence to life. We utilize the latest technologies and frameworks(Laravel) to ensure seamless navigation, responsive design, and optimized performance..</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-paint'></i>
-                <h3>Graphic Design</h3>
-                <p>Our graphic design services make your brand stand out with stunning and captivating designs. From logos to branding materials, illustrations to marketing collateral, we create lasting impressions. Combining creativity and strategic thinking, we effectively communicate your message and capture your brand's essence..</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-network-chart'></i>
-                <h3>Digital Marketing</h3>
-                <p>Our digital marketing services enhance online visibility, driving targeted traffic. We use comprehensive strategies: SEO, social media marketing, PPC advertising, and content marketing. Our goal is to reach your target audience, increase brand awareness, and generate valuable leads and conversions..</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-          
-        </div>
-    </section>
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
-        <div class="portfolio-container">
-            <!-- <div class="portfolio-box">
-                <img src="images/myimg.jpeg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Blogweb(bootstrap,laravel)</h4>
-                    <p>This is the my first simple blog website.
-                        laravel version 8.</p>
-                    <a href="#"></a>
-                </div>
-            </div> -->
-            <div class="portfolio-box">
-                <img src="images/bloodbank1.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Blood Bank(Laravel)</h4>
-                    <p>Developed a web-based blood bank management system using Laravel. Implemented features such as
-                        user registration, blood donor management, blood requests, and inventory management. Ensured secure
-                        data handling and utilized Laravel's validation and authentication features..</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="images/job6.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Job Portal(Laravel)</h4>
-                    <p>Led a team in developing a comprehensive job portal using Laravel. Created features for job listing,
-                        candidate profiles, employer profiles, application management, and advanced search functionality.
-                        Implemented responsive design principles and integrated third-party APIs for enhanced functionality.
-                        .</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="images/myimg.jpeg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Portfolio</h4>
-                    <p>Created a personal portfolio website using HTML, CSS,PHP and JavaScript to showcase my skills and
-                        projects. Implemented responsive design principles and utilized graphic design techniques to enhance
-                        the visual appeal of the website.
-                        .</p>
-                    <a href="#"><i class='bx bx-link'></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" class="text" placeholder="Full Name">
-                <input type="email" class="email" placeholder="Email Address">
-                <input type="text" class="subject" placeholder="Subject">
+    <!-- Theme toggle -->
+    <i class='bx bx-moon' id="theme-toggle"></i>
+  </header>
 
-            </div>
-            <!-- <div class="input-box">
-               
-                <input type="text" class="email" placeholder="Subject">
-            </div> -->
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="send message" class="btn">
-        </form>
+  <!-- Home Section -->
+ <!-- Home Section -->
+<section class="home" id="home">
+  <div class="home-content">
+   <h2>Hello, I'm Shivnath Gupta</h2>
+   <h1 class="highlight"><span class="multiple-text"></span> </h1>
+    <!-- <h3> <span class="multiple-text"></span></h3> -->
+    <p>I build websites, and explore cloud & DevOps technologies. Check out my work and let's connect!</p>
+    
+       <!-- Skills / Tech Icons -->
+<div class="skills-icons">
+  <i class='bx bxl-html5'></i>
+  <i class='bx bxl-css3'></i>
+  <i class='bx bxl-javascript'></i>
+  <!-- <i class='bx bxl-react'></i> -->
+  <!-- <i class='bx bxl-nodejs'></i> -->
+</div>
+           
+    
 
-    </section>
-    <!-- footer design -->
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by Alexshiv | All Rights Reserved.</p>
-        </div>
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bxs-arrow-from-bottom'></i></a>
-        </div>
 
-    </footer>
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!--  typed js --> 
-     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!-- custom js -->
-<script src="./script.js"></script>
-   
+    <!-- Social Media -->
+    <!-- <div class="social-media">
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://twitter.com/yourusername" target="_blank"><i class='bx bxl-twitter'></i></a>
+      <a href="https://wa.me/919876543210" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      <a href="https://github.com/codexshiv" target="_blank"><i class='bx bxl-github'></i></a>
+    </div> -->
+
+    <a href="#contact" class="btn">Hire Me</a>
+    <div class="scroll-down">
+    <i class='bx bx-chevron-down'></i>
+  </div>
+  </div>
+
+  <!-- Your Picture -->
+  <div class="home-img">
+    <img src="img/Img1.png" alt="Shivnath Gupta">
+  </div>
+</section>
+
+
+  <!-- About Section -->
+ <!-- About Section -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="images/profile.png" alt="About Shiv">
+  </div>
+
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Cloud Enthusiast & Web Developer</h3>
+    <p>Highly motivated Btech(CSE) student with passion for cloud computing, web development, design, and marketing. Always learning to deliver innovative solutions in dynamic environments.</p>
+    <a href="#portfolio" class="btn">Read More</a>
+  </div>
+</section>
+
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <p>Web Development, UI/UX Design, and more...</p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <p>Showcase of my best work will appear here.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+  <h2 class="heading">Get In <span>Touch</span></h2>
+
+  <div class="contact-container">
+    <!-- Left Side: Info -->
+    <div class="contact-info">
+      <h3>Let's Connect</h3>
+      <p>If you’d like to work together or just say hi, feel free to reach out! 🚀</p>
+      
+      <div class="social-media">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/yourgithub" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://twitter.com/yourtwitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://wa.me/yourwhatsappnumber" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <!-- Right Side: Form -->
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-row">
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone">
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Shiv Portfolio | All Rights Reserved.</p>
+
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 </body>
 </html>
