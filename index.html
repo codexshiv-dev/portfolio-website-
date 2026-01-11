@@ -1,164 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shiv Portfolio</title>
 
   <!-- Boxicons -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- ScrollReveal -->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <!-- Typed.js -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
+
 <body>
 
   <!-- Header -->
   <header class="header">
     <a href="#" class="logo">Portfolio</a>
-    <i class='bx bx-menu' id="menu-icon"></i>
 
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
-      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
     </nav>
 
-    <!-- Theme toggle -->
-    <i class='bx bx-moon' id="theme-toggle"></i>
+    <div class="nav-actions">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-moon' id="theme-toggle"></i>
+    </div>
   </header>
 
-  <!-- Home Section -->
- <!-- Home Section -->
-<section class="home" id="home">
-  <div class="home-content">
-   <h2>Hello, I'm Shivnath Gupta</h2>
-   <h1 class="highlight"><span class="multiple-text"></span> </h1>
-    <!-- <h3> <span class="multiple-text"></span></h3> -->
-    <p>I build websites, and explore cloud & DevOps technologies. Check out my work and let's connect!</p>
-    
-       <!-- Skills / Tech Icons -->
-<div class="skills-icons">
-  <i class='bx bxl-html5'></i>
-  <i class='bx bxl-css3'></i>
-  <i class='bx bxl-javascript'></i>
-  <!-- <i class='bx bxl-react'></i> -->
-  <!-- <i class='bx bxl-nodejs'></i> -->
-</div>
-           
-    
+  <!-- Hero -->
+  <section class="home" id="home">
+    <div class="hero-box">
+      <span class="hero-tag">Web Developer • Cloud Enthusiast</span>
 
+      <h1>Hi, I'm <span class="gradient-text">Shivnath Gupta</span></h1>
 
-    <!-- Social Media -->
-    <!-- <div class="social-media">
-      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class='bx bxl-linkedin'></i></a>
-      <a href="https://twitter.com/yourusername" target="_blank"><i class='bx bxl-twitter'></i></a>
-      <a href="https://wa.me/919876543210" target="_blank"><i class='bx bxl-whatsapp'></i></a>
-      <a href="https://github.com/codexshiv" target="_blank"><i class='bx bxl-github'></i></a>
-    </div> -->
+      <p class="hero-desc">
+        I build modern, responsive websites and explore cloud & DevOps
+        technologies with a focus on clean UI.
+      </p>
 
-    <a href="#contact" class="btn">Hire Me</a>
-    <div class="scroll-down">
-    <i class='bx bx-chevron-down'></i>
-  </div>
-  </div>
-
-  <!-- Your Picture -->
-  <div class="home-img">
-    <img src="img/Img1.png" alt="Shivnath Gupta">
-  </div>
-</section>
-
-
-  <!-- About Section -->
- <!-- About Section -->
-<section class="about" id="about">
-  <div class="about-img">
-    <img src="images/profile.png" alt="About Shiv">
-  </div>
-
-  <div class="about-content">
-    <h2 class="heading">About <span>Me</span></h2>
-    <h3>Cloud Enthusiast & Web Developer</h3>
-    <p>Highly motivated Btech(CSE) student with passion for cloud computing, web development, design, and marketing. Always learning to deliver innovative solutions in dynamic environments.</p>
-    <a href="#portfolio" class="btn">Read More</a>
-  </div>
-</section>
-
-
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <h2 class="heading">My <span>Services</span></h2>
-    <p>Web Development, UI/UX Design, and more...</p>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section class="portfolio" id="portfolio">
-    <h2 class="heading">Latest <span>Projects</span></h2>
-    <p>Showcase of my best work will appear here.</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-  <h2 class="heading">Get In <span>Touch</span></h2>
-
-  <div class="contact-container">
-    <!-- Left Side: Info -->
-    <div class="contact-info">
-      <h3>Let's Connect</h3>
-      <p>If you’d like to work together or just say hi, feel free to reach out! 🚀</p>
-      
-      <div class="social-media">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/yourgithub" target="_blank"><i class="bx bxl-github"></i></a>
-        <a href="https://twitter.com/yourtwitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-        <a href="https://wa.me/yourwhatsappnumber" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn">View Work</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
       </div>
     </div>
 
-    <!-- Right Side: Form -->
-    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-      <div class="form-row">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+    <div class="scroll-down">
+      <i class='bx bx-chevron-down'></i>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/profile.png" alt="About Image">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        I am a B.Tech (CSE) student passionate about web development,
+        cloud computing, and DevOps. I enjoy building clean, scalable,
+        and user-friendly digital products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class='bx bxl-html5'></i>
+        <h3>HTML</h3>
       </div>
 
-      <div class="form-row">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+      <div class="skill-card">
+        <i class='bx bxl-css3'></i>
+        <h3>CSS</h3>
       </div>
 
-      <div class="form-row">
-        <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone">
+      <div class="skill-card">
+        <i class='bx bxl-javascript'></i>
+        <h3>JavaScript</h3>
       </div>
 
-      <div class="form-row">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+      <div class="skill-card">
+        <i class='bx bx-cloud'></i>
+        <h3>Cloud Basics</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>
+          Personal responsive portfolio built using HTML, CSS, and JavaScript.
+        </p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
       </div>
 
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </div>
-</section>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>
+          Clean landing page with modern UI and mobile-first design.
+        </p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Cloud Basics App</h3>
+        <p>
+          Simple project explaining cloud concepts with static content.
+        </p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Get In <span>Touch</span></h2>
+
+    <div class="contact-container">
+
+      <!-- Left: Social -->
+      <div class="contact-info">
+        <h3>Connect With Me</h3>
+        <p>You can reach me directly on these platforms:</p>
+
+        <div class="contact-socials">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <i class='bx bxl-linkedin'></i> LinkedIn
+          </a>
+
+          <a href="https://github.com/yourgithub" target="_blank">
+            <i class='bx bxl-github'></i> GitHub
+          </a>
+
+          <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+            <i class='bx bxl-whatsapp'></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn">Send Message</button>
+      </form>
+
+    </div>
+  </section>
 
 
   <!-- Footer -->
   <footer class="footer">
-    <p>© 2025 Shiv Portfolio | All Rights Reserved.</p>
-
+    <p>© 2025 Shiv Portfolio. All Rights Reserved.</p>
   </footer>
 
-  <!-- Custom JS -->
   <script src="script.js"></script>
 </body>
+
 </html>
