@@ -1,191 +1,180 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiv Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shiv Portfolio</title>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
 
-  <!-- Boxicons -->
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
 
-<body>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-  <!-- Header -->
-  <header class="header">
-    <a href="#" class="logo">Portfolio</a>
-
-    <nav class="navbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="nav-actions">
-      <i class='bx bx-menu' id="menu-icon"></i>
-      <i class='bx bx-moon' id="theme-toggle"></i>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="home" id="home">
-    <div class="hero-box">
-      <span class="hero-tag">Web Developer • Cloud Enthusiast</span>
-
-      <h1>Hi, I'm <span class="gradient-text">Shivnath Gupta</span></h1>
-
-      <p class="hero-desc">
-        I build modern, responsive websites and explore cloud & DevOps
-        technologies with a focus on clean UI.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="#portfolio" class="btn">View Work</a>
-        <a href="#contact" class="btn outline">Contact Me</a>
+      <div class="nav-actions">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-moon" id="theme-toggle"></i>
       </div>
-    </div>
+    </header>
 
-    <div class="scroll-down">
-      <i class='bx bx-chevron-down'></i>
-    </div>
-  </section>
+    <!-- Hero -->
+    <section class="home" id="home">
+      <div class="hero-box">
+        <span class="hero-tag">Web Developer • Cloud Enthusiast</span>
 
-  <!-- About -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="images/profile.png" alt="About Image">
-    </div>
+        <h1>Hi, I'm <span class="gradient-text">Shivnath Gupta</span></h1>
 
-    <div class="about-content">
-      <h2 class="heading">About <span>Me</span></h2>
-      <p>
-        I am a B.Tech (CSE) student passionate about web development,
-        cloud computing, and DevOps. I enjoy building clean, scalable,
-        and user-friendly digital products.
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section class="skills" id="skills">
-    <h2 class="heading">My <span>Skills</span></h2>
-
-    <div class="skills-grid">
-      <div class="skill-card">
-        <i class='bx bxl-html5'></i>
-        <h3>HTML</h3>
-      </div>
-
-      <div class="skill-card">
-        <i class='bx bxl-css3'></i>
-        <h3>CSS</h3>
-      </div>
-
-      <div class="skill-card">
-        <i class='bx bxl-javascript'></i>
-        <h3>JavaScript</h3>
-      </div>
-
-      <div class="skill-card">
-        <i class='bx bx-cloud'></i>
-        <h3>Cloud Basics</h3>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="portfolio" id="portfolio">
-    <h2 class="heading">My <span>Projects</span></h2>
-
-    <div class="project-grid">
-
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>
-          Personal responsive portfolio built using HTML, CSS, and JavaScript.
+        <p class="hero-desc">
+          I build modern, responsive websites and explore cloud & DevOps
+          technologies with a focus on clean UI.
         </p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live</a>
-          <a href="#" target="_blank">GitHub</a>
+
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn">View Work</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
         </div>
       </div>
 
-      <div class="project-card">
-        <h3>Landing Page</h3>
+      <div class="scroll-down">
+        <i class="bx bx-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/profile.png" alt="About Image" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
         <p>
-          Clean landing page with modern UI and mobile-first design.
+          I am a B.Tech (CSE) student passionate about web development, cloud
+          computing, and DevOps. I enjoy building clean, scalable, and
+          user-friendly digital products.
         </p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live</a>
-          <a href="#" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="bx bxl-html5"></i>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="bx bxl-css3"></i>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="bx bxl-javascript"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+          <i class="bx bx-cloud"></i>
+          <h3>Cloud Basics</h3>
         </div>
       </div>
+    </section>
 
-      <div class="project-card">
-        <h3>Cloud Basics App</h3>
-        <p>
-          Simple project explaining cloud concepts with static content.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live</a>
-          <a href="#" target="_blank">GitHub</a>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            Personal responsive portfolio built using HTML, CSS, and JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <p>Clean landing page with modern UI and mobile-first design.</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Cloud Basics App</h3>
+          <p>Simple project explaining cloud concepts with static content.</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Get In <span>Touch</span></h2>
 
+      <div class="contact-container">
+        <!-- Left: Social -->
+        <div class="contact-info">
+          <h3>Connect With Me</h3>
+          <p>You can reach me directly on these platforms:</p>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Get In <span>Touch</span></h2>
+          <div class="contact-socials">
+            <a href="#" target="_blank">
+              <i class="bx bxl-linkedin"></i> LinkedIn
+            </a>
 
-    <div class="contact-container">
+            <a href="#" target="_blank">
+              <i class="bx bxl-github"></i> GitHub
+            </a>
 
-      <!-- Left: Social -->
-      <div class="contact-info">
-        <h3>Connect With Me</h3>
-        <p>You can reach me directly on these platforms:</p>
-
-        <div class="contact-socials">
-          <a href="https://linkedin.com/in/yourprofile" target="_blank">
-            <i class='bx bxl-linkedin'></i> LinkedIn
-          </a>
-
-          <a href="https://github.com/yourgithub" target="_blank">
-            <i class='bx bxl-github'></i> GitHub
-          </a>
-
-          <a href="https://wa.me/yourwhatsappnumber" target="_blank">
-            <i class='bx bxl-whatsapp'></i> WhatsApp
-          </a>
+            <a href="#" target="_blank">
+              <i class="bx bxl-whatsapp"></i> WhatsApp
+            </a>
+          </div>
         </div>
+
+        <!-- Right: Form -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button class="btn">Send Message</button>
+        </form>
       </div>
+    </section>
 
-      <!-- Right: Form -->
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button class="btn">Send Message</button>
-      </form>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Shiv Portfolio. All Rights Reserved.</p>
+    </footer>
 
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Shiv Portfolio. All Rights Reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
